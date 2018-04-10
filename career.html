@@ -104,11 +104,11 @@
 								<li>
 									<a href="services.html">Services</a>
 								</li>
-								<li class="active">
+								<li>
 									<a href="contact.html">Contact</a>
 								</li>
-								<li>
-									<a href="career.html">Career</a>
+								<li class="active">
+									<a href="contact.html">Career</a>
 								</li>
 							</ul>
 						</div>
@@ -125,8 +125,8 @@
 							<div class="row">
 								<div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
 									<div class="slider-text-inner text-center">
-										<h2>Get in Touch</h2>
-										<h1>Contact Us</h1>
+										<h2>Apply online</h2>
+										<h1>Careers</h1>
 									</div>
 								</div>
 							</div>
@@ -139,7 +139,7 @@
 		<div id="colorlib-contact">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1 animate-box">
+					<!-- <div class="col-md-10 col-md-offset-1 animate-box">
 						<h2>Contact Information</h2>
 						<div class="row contact-info-wrap">
 							<div class="col-md-3">
@@ -174,45 +174,84 @@
 								</p>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-md-10 col-md-offset-1 animate-box">
-						<h2>Get In Touch</h2>
+						<h2>Apply online</h2>
 						<form action="#">
 							<div class="row form-group">
-								<div class="col-md-6">
-									<label for="fname">First Name</label>
-									<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+								<div class="col-md-12">
+									<label for="fname">Full Name</label>
+									<input type="text" id="fname" class="form-control" placeholder="Your name (required)" required>
 								</div>
-								<div class="col-md-6">
+								<!-- <div class="col-md-6">
 									<label for="lname">Last Name</label>
 									<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-								</div>
+								</div> -->
 							</div>
 
 							<div class="row form-group">
 								<div class="col-md-12">
 									<label for="email">Email</label>
-									<input type="text" id="email" class="form-control" placeholder="Your email address">
+									<input type="text" id="email" class="form-control" placeholder="Your Email (required)" required>
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="gender">Gender</label>
+									<select id="gender" name="gender">
+										<option value="male">male</option>
+										<option value="female">female</option>
+									</select>
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="mobile">Mobile No</label>
+									<input type="text" id="mobile" class="form-control" placeholder="">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="organization">Past or Current Organization</label>
+									<input type="text" id="organization" class="form-control" placeholder="">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="expertise">Major Expertise</label>
+									<input type="text" id="expertise" class="form-control" placeholder="">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="mobile">Work Experience (in-Years)</label>
+									<input type="text" id="mobile" class="form-control" placeholder="">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="department">Department applying for (reuired)</label>
+									<select id="department" name="department" required>
+										<option value="engineering">Engineering</option>
+										<option value="construction">Construction</option>
+										<option value="planning">Planning</option>
+									</select>
 								</div>
 							</div>
 
 							<div class="row form-group">
 								<div class="col-md-12">
-									<label for="subject">Subject</label>
-									<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-								</div>
-							</div>
-
-							<div class="row form-group">
-								<div class="col-md-12">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+									<label for="resume">Your Resume</label>
+									<div class="row">
+										<div class="col-md-2">
+											<input type="submit" value="choose File" id="resume" class="form-control"><span>No file chosen</span>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="form-group">
-								<input type="submit" value="Send Message" class="btn btn-primary">
+								<input type="submit" value="SUBMIT RESUME" class="btn btn-primary">
 							</div>
-
 						</form>
 					</div>
 				</div>

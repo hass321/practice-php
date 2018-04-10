@@ -803,7 +803,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .blog-entry {
   position: relative;
   display: block;
-  background: #fafafa;
+  background: #eee;
   padding: 1.5em;
   margin-bottom: 30px; }
   .blog-entry span {
@@ -1501,3 +1501,13 @@ input[type="text"] {
 @media screen and (max-width: 1200px) {
   span.highlight {
     display: none; } }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }

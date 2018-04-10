@@ -184,6 +184,23 @@ h1, h2, h3, h4, h5, h6, figure {
 		@media screen and (max-width: $screen-sm ) {
 			padding: 0px 1em;
 		}
+		.margin{
+			margin: 0;
+			.row{
+				.spaceAround{
+					padding: 0;
+					#colorlib-logo{
+						a{
+							img{
+								@media screen and (max-width: 768px){
+									width: 190px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	#colorlib-logo {
 		font-size: 24px;
@@ -567,7 +584,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		background: $brand-primary;
 		width: 80%;
 		margin: 7px auto 0 auto;
-		padding: 1em 0;
+		padding: 2em 0;
 		@media screen and (max-width: $screen-sm) {
 			margin-bottom: 2em;
 			width: 100%;
@@ -580,7 +597,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			font-size: 62px;
 			color: $brand-white;
 			font-weight: 700;
-			line-height: 120px;
+			line-height: 80px;
 		}
 		.yr{
 			text-transform: uppercase;
@@ -1633,9 +1650,9 @@ input[type="text"] {
   &.colorlib-nav-white {
   	> i {
   		color:$brand-white;
-  		background: $brand-white;
+  		background: $brand-black;
   		&::before, &::after {
-  			background: $brand-white;
+  			background: $brand-black;
   		}
   	}
   }

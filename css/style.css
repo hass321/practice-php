@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6, figure {
           padding: 4px 10px;
           display: -moz-inline-stack;
           display: inline-block;
-          zoom: 1;
+          zoom: 1.2;
           *display: inline;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
@@ -988,12 +988,12 @@ input[type="text"] {
     list-style: none;
     display: -moz-inline-stack;
     display: inline-block;
-    zoom: 1;
+    zoom: 1.2;
     *display: inline; }
     .colorlib-social-icons li a {
       display: -moz-inline-stack;
       display: inline-block;
-      zoom: 1;
+      zoom: 1.2;
       *display: inline;
       color: #4068ac;
       padding-left: 10px;

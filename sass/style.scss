@@ -42,7 +42,7 @@ $form-group-margin-bottom:       30px !default;
 @mixin inline-block() {
 	display:-moz-inline-stack;
 	display:inline-block;
-	zoom:1;
+	zoom:1.2;
 	*display:inline;
 }
 
